@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow" />
+
+    <title> Mainflux Open Source IoT Platform</title>
+
+    <meta name="description" content="Open-source, patent-free, full stack IoT platform recognized by Linux Foundation. Highly performant, scalable and secure. Built as a set of microservices containerized by Docker and orchestrated with Kubernetes. Easy to deploy on-premises or in the cloud.">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,800,900" rel="stylesheet">
+    
+     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+     
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+     
+     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet">
+
+    <meta property="og:locale" content="enS" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mainflux — Full-stack Open-Source, Patent-free IoT Platform and Consulting services" />
+    <meta property="og:description" content="Mainflux is a technology company which provides a full-stack open-source, patent-free IoT Platform and consulting services grounded in the team members‘ extensive working experience gained in fortune 500 companies as well as technological start-ups" />
+    <meta property="og:url" content="https://www.mainflux.com/index.html" />
+    <meta property="og:site_name" content="Mainflux" />
+    <meta property="og:image" content="https://www.mainflux.com/images/Open-Source-%20IoT-Platform-Mainflux.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content=" Mainflux is a technology company which provides a full-stack open-source, patent-free IoT 
+     Platform and consulting services grounded in the team members‘ extensive working experience gained in fortune 500 companies as well 
+     as technological start-ups" />
+    <meta name="twitter:title" content="Mainflux — Full-stack Open-Source, Patent-free IoT Platform and Consulting services" />
+    <meta name="twitter:site" content="@Mainflux" />
+    <meta name="twitter:image" content="https://www.mainflux.com/images/Open-Source-%20IoT-Platform-Mainflux.jpg" />
+    <meta name="twitter:creator" content="@Mainflux" />
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo-iot-mainflux.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="images/logo-iot-mainflux.png" />
+
+    <!-- Google Analytic -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-97185759-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+</head>
+
+
+<body>
+
+    <header>
+
+
+        <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img id="mainflux-brand" src="images/logo.png">MAINFLUX</a>
+                </div>
+                <!-- navbar-header -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul id="nav" class="nav navbar-nav navbar-right">
+                        <li><a id="" href="https://github.com/mainflux/mainflux" target="_blank">Github</a></li>
+                        <li><a href="http://mainflux.readthedocs.io/en/latest/" target="_blank">Blog</a></li>
+                         <li><a href="http://mainflux.readthedocs.io/en/latest/" target="_blank">Docs</a></li>
+                          <li><a href="http://mainflux.readthedocs.io/en/latest/" target="_blank">Learn</a></li>
+                        
+
+                    </ul>
+                </div>
+                <!-- collapse navbar-collapse -->
+            </div>
+            <!-- container -->
+        </nav>
+
+    </header>
+
+
+    <main class="main-home" id="main-home">
+
+        <div class="container-fluid">
+
+            <div class="row bgimage">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+                    <h2><img id="mainflux-logo" src="images/logo.png" alt="">MAINFLUX
+                    </h2>
+
+                    <h1>OPEN SOURCE IoT PLATFORM<br>PUBLISHED UNDER APACHE 2.0 LICENCE</h1>
+
+
+                    <h3 id="main-sub"> Written in Go as a set of microservices, containerized  <br> by Docker and orchestrated with Kubernetes</h3>
+
+                    <a href="https://github.com/mainflux/mainflux" target="_blank" class="btn btn-default  center">GET STARTED</a> <a href="https://github.com/mainflux/mainflux" target="_blank" class="btn btn-default  center ">DOWNLOAD</a>
+
+
+                    <img id="linux-logo" src="images/230x100px_LOGO-linux.png" alt="">
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- ----------------- MAIN ---------------- -->
+
+    <!-- ----------------- IoT Platform ---------------- -->
+
+
+    <section class="iot-platform" id="iot-platform">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="section-sub">
+
+                        <h3 class="section-subheadline text-center">WHAT IS MAINFLUX</h3>
+
+                    </div>
+
+                </div>
+
+                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-8 col-lg-offset-2">
+
+
+                    <div class="section-main-text">
+
+                        <p class="what section-text">
+                            Mainflux is full-stack, perfromant, scalable, secure, open source and patent-free IoT cloud platform written in the Go programming language. Built as a set of microservices containerized by Docker and orchestrated with Kubernetes, it accepts connections over multiple network protocols (i.e. HTTP, MQTT, WebSocket), thus making a seamless bridge between them, and meant to be used as IoT middleware which provides all necessary capabilities for the development of IoT solutions, applications and intelligent devices.
+
+                            <br>
+                            <br>Mainflux is created with a experience gained developing WeIO, Linux prototyping HW & SW board, conceived to democratize rapid prototyping and creation of wirelessly connected interactive IoT objects through an intuitive Python-based SDK that could interface with the underlying hardware. This development was crucial because important lessons are learned how devices, sensors, and hardware affects the connectivity, protocol choices and IoT cloud architecture from the bottom up towards the cloud and application.
+                            <br>
+                            <br> Selection of the Go language was essential for Manflux overall performance. Go brings the best of both worlds. On the one hand, it is efficient: it runs directly on the underlying hardware, has small footprint and fast compiler. On the other hand, has an elegant concurrency code easy to write and maintain.
+
+                            <br>
+                            <br>As an advanced, architecture Mainflux IoT platform has been recognized by the Linux Foundation, and been invited to join their EdgeX Foundry Project, an open source framework for edge computing hosted within a full hardware- and OS-agnostic reference software platform. Its mission is to set standards for interoperability and address challenges currently hindering faster adoption and successful implementations of IoT technology.
+                            <br>
+                            <br>
+
+
+                        </p>
+                        <br>
+                        <br>
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 left">
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <!-- ----------------- Platform Features ---------------- -->
+    <section class="platform-features" id="platform-features">
+
+        <div class="container">
+
+            <div class="row row-features">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="section-sub">
+                        <h3 class="section-subheadline features"> FEATURES</h3>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5  col-lg-offset-1 left">
+                    <br>
+
+                    <h4 class="sub-subheadline-section">PERFORMANT</h4>
+
+                    <p class="section-text">
+                        Due to Go programming language, and microservices-based architecture it has high-performance, scalability, fault-tolerance, small footprint, deployment speed, fast and robust execution.
+                    </p>
+
+
+                    <br>
+                    <br>
+
+
+                </div>
+
+
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-lg-offset-1 right">
+                    <br>
+                    <h4 class="sub-subheadline-section">DEVELOPER FRIENDLY</h4>
+
+                    <p class="section-text">
+                        SDK - Client libraries for many hardware platforms in different programming languages, including: C/C++, JavaScript, Python and Go and with open APIs provide the ability to easily connect any device or sensor without modification or adjustment.
+                    </p>
+                    <br>
+                    <br>
+
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5  col-lg-offset-1 left">
+                    <br>
+
+                    <h4 class="sub-subheadline-section">BUILT FOR EXTENSIBILITY</h4>
+
+                    <p class="section-text">
+                        Reconfiguration or modification of the core platform is not needed for the implementation of vertical solutions and applications new features and functionalities.
+                    </p>
+
+                    <br>
+                    <br>
+
+
+                </div>
+
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-lg-offset-1 right">
+                    <br>
+
+                    <h4 class="sub-subheadline-section">MULTI - PROTOCOL AND DEVICE AGNOSTIC</h4>
+
+                    <p class="section-text">
+                        PUB/SUB multiprotocol messaging bridge - HTTP, MQTT, WebSocket, CoAP - based on NATS ultra-performant broker.
+                    </p>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5  col-lg-offset-1 left">
+                    <br>
+
+                    <h4 class="sub-subheadline-section">SEAMLESS INTEGRATION</h4>
+
+                    <p class="section-text">
+                        Seamless 3rd-party integration with existing enterprise systems (e.g., ERP, BI, CRM), databases, and analytics programs, back-end systems and/or other cloud services is provided and ensured with open, modularized and flexible architecture consisting of many IoT protocols and easy-to-use APIs.
+                    </p>
+
+                    <br>
+                    <br>
+
+                </div>
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-lg-offset-1 right">
+                    <br>
+
+                    <h4 class="sub-subheadline-section">SECURE</h4>
+
+                    <p class="section-text">
+                        Enhanced and fine-grained security via deployment-ready Mainflux Authentication and Authorization Server with Access Control scheme based on customizable API keys and scoped JWT. NGINX reverse proxy for security, load-balancing and termination of TLS and DTLS connections.
+                    </p>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5  col-lg-offset-1 left">
+                    <br>
+
+                    <h4 class="sub-subheadline-section">SCALE DOWN - DEPLOYABLE</h4>
+
+                    <p class="section-text">
+                        Deployable from multi-datacenter scale to RPi class devices.
+                    </p>
+                    <br>
+                    <br>
+
+                </div>
+
+
+                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-5 col-lg-offset-1 right">
+                    <br>
+                    <h4 class="sub-subheadline-section">LOW OPEX</h4>
+
+                    <p class="section-text">
+                        Low operating expense (OPEX) due to design and selection of core technologies.
+                    </p>
+
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- --- VERSION AVAIALABLE --- -->
+
+    </section>
+
+
+    <section class="linux-membership">
+
+        <div class="container-fluid">
+
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <div class="version">
+
+                        <a href=""> <span> Mainflux <strong>0.7.0</strong> is now available</span></a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <a href="https://github.com/mainflux/mainflux" target="_blank" class=" btn-member btn btn-default  center">GET STARTED</a> <a href="https://github.com/mainflux/mainflux" target="_blank" class=" btn-member btn btn-default  center ">DOWNLOAD</a>
+
+                </div>
+
+            </div>
+
+ <!-- --- LINUX MEMBERSHIP --- -->
+           
+           
+           
+            <div class="row row-linux">
+
+<hr id="linux">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+                    <h4 id="member-text">Mainflux is member of <br> Linux Foundation Edgex Foundry Project</h4>
+
+                    <img id="edgex-member" src="images/edgex-foundry.png" alt="">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- ----------------- Footer ---------------- -->
+    <section class="footer">
+
+        <div class="container-fluid">
+            <div class="row footer">
+
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <ul>
+
+                        <li>GITHUB</li>
+                        <li>DOCS</li>
+                        <li>BLOG</li>
+                        <li>LEARN</li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <p>Apache v2.0 – 2017 Mainflux - Internet of Things Solutions </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- jqery and JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+
+</html>
